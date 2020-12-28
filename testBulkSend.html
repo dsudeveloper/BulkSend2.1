@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style type="text/css">
+        html, body, pre, footer {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        html {
+            height: 100%;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            border-bottom: 2px solid black;
+            width: 100%;
+        }
+        pre {
+            border: 2px solid black;
+            padding: 1em;
+            overflow: auto;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            border-top: 2px solid black;
+            width: 100%;
+        }
+    </style> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/plugins/line-numbers/prism-line-numbers.min.css" integrity="sha512-cbQXwDFK7lj2Fqfkuxbo5iD1dSbLlJGXGpfTDqbggqjHJeyzx88I3rfwjS38WJag/ihH7lzuGlGHpDBymLirZQ==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/prism.min.js" integrity="sha512-9+422Bs3A87UkWfp+qV80Nfv9arhbCXKY1rxrF2seorI36mIIstMiuBfyKLF1yH1nnzQkEWq2xrzT4XU3Z+vrA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/components/prism-json.min.js" integrity="sha512-IC7rV8RslChgByOdUFC6ePqOGn+OwJhnKC3S5AezM8DAiOdGhJMwgsIvBChsa2yuxxoPbH2+W/kjNUM1cc+jUQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/plugins/line-numbers/prism-line-numbers.min.js" integrity="sha512-1oLZvExT5RaW4q2GgvRPf+XzVVGmsKirfZBRN7aifdOpvZ1L9idEncfMFlfHiQNGBA+Sev+alscSAT/xQ0rwXA==" crossorigin="anonymous"></script>
+</head>
+<body class="line-numbers">
+    <header></header>
+    <pre>
+    <code class="language-json">{
+      "compositeTemplates": [
+        {
+          "inlineTemplates": [
+            {
+              "recipients": {
+                "signers": [
+                  {
+                    "recipientId": 1,
+                    "roleName": "Manager",
+                    "name": "Multi Bulk Recipient::Manager",
+                    "email": "multiBulk-Manager@docusign.com"
+                  },
+                  {
+                    "recipientId": 2,
+                    "roleName": "SalesRep",
+                    "name": "Multi Bulk Recipient::SalesRep",
+                    "email": "multiBulk-SalesRep@docusign.com"
+                  }
+                ]
+              },
+              "sequence": 2,
+              "customFields": {
+                "textCustomFields": [
+                  {
+                    "name": "batchName",
+                    "value": ""
+                  },
+                  {
+                    "name": "UseCaseId",
+                    "value": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "serverTemplates": [
+            {
+              "templateId": "c20b4c4d-xxxx-xxxx-xxxx-c82af27bdb80",
+              "sequence": 1
+            }
+          ]
+        }
+      ],
+      "status": "created"
+    }</code>
+    </pre>
+    <footer></footer>
+</body>
+</html>
