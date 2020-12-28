@@ -12,41 +12,41 @@
         {
             "inlineTemplates": [
                 {
-                "recipients": {
-                    "signers": [
-                    {
-                        "recipientId": 1,
-                        "roleName": "Manager",
-                        "name": "Multi Bulk Recipient::Manager",
-                        "email": "multiBulk-Manager@docusign.com"
+                    "recipients": {
+                        "signers": [
+                            {
+                                "recipientId": 1,
+                                "roleName": "Manager",
+                                "name": "Multi Bulk Recipient::Manager",
+                                "email": "multiBulk-Manager@docusign.com"
+                            },
+                            {
+                                "recipientId": 2,
+                                "roleName": "SalesRep",
+                                "name": "Multi Bulk Recipient::SalesRep",
+                                "email": "multiBulk-SalesRep@docusign.com"
+                            }
+                        ]
                     },
-                    {
-                        "recipientId": 2,
-                        "roleName": "SalesRep",
-                        "name": "Multi Bulk Recipient::SalesRep",
-                        "email": "multiBulk-SalesRep@docusign.com"
+                    "sequence": 2,
+                    "customFields": {
+                        "textCustomFields": [
+                            {
+                                "name": "batchName",
+                                "value": ""
+                            },
+                            {
+                                "name": "UseCaseId",
+                                "value": ""
+                            }
+                        ]
                     }
-                    ]
-                },
-                "sequence": 2,
-                "customFields": {
-                    "textCustomFields": [
-                    {
-                        "name": "batchName",
-                        "value": ""
-                    },
-                    {
-                        "name": "UseCaseId",
-                        "value": ""
-                    }
-                    ]
-                }
                 }
             ],
             "serverTemplates": [
                 {
-                "templateId": "c20b4c4d-xxxx-xxxx-xxxx-c82af27bdb80",
-                "sequence": 1
+                    "templateId": "c20b4c4d-xxxx-xxxx-xxxx-c82af27bdb80",
+                    "sequence": 1
                 }
             ]
         }
