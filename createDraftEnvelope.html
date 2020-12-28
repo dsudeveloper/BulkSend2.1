@@ -7,52 +7,52 @@
 </head>
 <body>
     <pre>
+{
+    "compositeTemplates": [
         {
-            "compositeTemplates": [
-              {
-                "inlineTemplates": [
-                  {
-                    "recipients": {
-                      "signers": [
-                        {
-                          "recipientId": 1,
-                          "roleName": "Manager",
-                          "name": "Multi Bulk Recipient::Manager",
-                          "email": "multiBulk-Manager@docusign.com"
-                       },
-                       {
-                          "recipientId": 2,
-                          "roleName": "SalesRep",
-                          "name": "Multi Bulk Recipient::SalesRep",
-                          "email": "multiBulk-SalesRep@docusign.com"
-                        }
-                      ]
+            "inlineTemplates": [
+                {
+                "recipients": {
+                    "signers": [
+                    {
+                        "recipientId": 1,
+                        "roleName": "Manager",
+                        "name": "Multi Bulk Recipient::Manager",
+                        "email": "multiBulk-Manager@docusign.com"
                     },
-                    "sequence": 2,
-                    "customFields": {
-                      "textCustomFields": [
-                        {
-                          "name": "batchName",
-                          "value": ""
-                        },
-                        {
-                          "name": "UseCaseId",
-                          "value": ""
-                        }
-                      ]
+                    {
+                        "recipientId": 2,
+                        "roleName": "SalesRep",
+                        "name": "Multi Bulk Recipient::SalesRep",
+                        "email": "multiBulk-SalesRep@docusign.com"
                     }
-                  }
-                ],
-                "serverTemplates": [
-                  {
-                    "templateId": "c20b4c4d-xxxx-xxxx-xxxx-c82af27bdb80",
-                    "sequence": 1
-                  }
-                ]
-              }
+                    ]
+                },
+                "sequence": 2,
+                "customFields": {
+                    "textCustomFields": [
+                    {
+                        "name": "batchName",
+                        "value": ""
+                    },
+                    {
+                        "name": "UseCaseId",
+                        "value": ""
+                    }
+                    ]
+                }
+                }
             ],
-            "status": "created"
-          }        
+            "serverTemplates": [
+                {
+                "templateId": "c20b4c4d-xxxx-xxxx-xxxx-c82af27bdb80",
+                "sequence": 1
+                }
+            ]
+        }
+    ],
+    "status": "created"
+}        
     </pre>
 </body>
 </html>
