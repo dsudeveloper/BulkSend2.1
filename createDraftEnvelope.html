@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <code><pre>
+        {
+            "compositeTemplates": [
+              {
+                "inlineTemplates": [
+                  {
+                    "recipients": {
+                      "signers": [
+                        {
+                          "recipientId": 1,
+                          "roleName": "Manager",
+                          "name": "Multi Bulk Recipient::Manager",
+                          "email": "multiBulk-Manager@docusign.com"
+                       },
+                       {
+                          "recipientId": 2,
+                          "roleName": "SalesRep",
+                          "name": "Multi Bulk Recipient::SalesRep",
+                          "email": "multiBulk-SalesRep@docusign.com"
+                        }
+                      ]
+                    },
+                    "sequence": 2,
+                    "customFields": {
+                      "textCustomFields": [
+                        {
+                          "name": "batchName",
+                          "value": ""
+                        },
+                        {
+                          "name": "UseCaseId",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "serverTemplates": [
+                  {
+                    "templateId": "c20b4c4d-xxxx-xxxx-xxxx-c82af27bdb80",
+                    "sequence": 1
+                  }
+                ]
+              }
+            ],
+            "status": "created"
+          }        
+    </pre></code>
+</body>
+</html>
